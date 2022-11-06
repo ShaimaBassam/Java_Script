@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>/////  the return value of prompt is string  //////
+        /////  to convert string to number we use parseInt  //////
+        var input1=parseInt(prompt("Enter the first number"));
+        var input2=parseInt(prompt("Enter the second number"));
+        
+        //// To know the type of the variables  we use the build-in function (typeof) ////
+        var N1type = typeof(input1);
+        var N2type = typeof(input2);
+        console.log('the input1 is:',N1type);
+        console.log('the input2 is:',N2type);
+        
+        if(input1 > input2) {
+         alert("Hello World");
+         console.log("Hello World");
+         document.write("Hello World");
+        }
+        else if(input1 === input2){
+            alert('the numbers are equal');
+            console.log('the numbers are equal');
+            document.write("the numbers are equal");
+        }
+        else
+        {
+         alert("Goodbye");
+         console.log("Goodbye");
+         document.write("Goodbye");
+        }
+        
+        // for (let index = 1; index < 5; index++) {
+        //     document.write('<p> hello </p>');
+            
+        // }</script>
+</body>
+</html>

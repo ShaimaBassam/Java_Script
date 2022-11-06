@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    var operation = prompt("Enter the Operation (+,-,*,/,%) ");
+        var FirstNumber = parseInt(prompt('Enter the First Number'));
+        var SecondNumber = parseInt(prompt('Enter the Second Number'));
+        
+        
+        console.log('The Operation:', operation);
+        console.log('The First Number:', FirstNumber);
+        console.log('The Second Number:', SecondNumber);
+        
+        
+        switch (operation) {
+            case '+':
+                var Sum = FirstNumber + SecondNumber;
+                document.write(Sum);
+                break;
+            case '-':
+                    var Subtract = FirstNumber - SecondNumber;
+                    document.write(Subtract);
+            break;
+            case '*':
+                    var multiply = FirstNumber * SecondNumber;
+                    document.write(multiply);
+            break;        
+        
+            default:
+                var divide = FirstNumber / SecondNumber;
+                document.write(divide);
+                break;
+        }
+        
+        
+        
+        
+        </script>
+</body>
+</html>
